@@ -27,7 +27,7 @@
 #define MENWIZ_h
 
 #define EEPROM_SUPPORT     //comment if you do'nt want to use the readEeprom and writeEeprom methods!
-//#define BUTTON_SUPPORT     //comment if you do'nt want to use the Button methods!
+#define BUTTON_SUPPORT     //comment if you do'nt want to use the Button methods!
 
 #include <Wire.h>
 #include <avr/pgmspace.h>
