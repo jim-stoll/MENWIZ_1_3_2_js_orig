@@ -802,7 +802,7 @@ int b;
           }
         else{	  
           if(MW_invar)
-            actBTR();
+            actBTL();
           else
             actBTU();
           }
@@ -813,7 +813,7 @@ int b;
           }
         else{
 	      if(MW_invar)
-            actBTL();
+            actBTR();
           else
             actBTD();
           }  

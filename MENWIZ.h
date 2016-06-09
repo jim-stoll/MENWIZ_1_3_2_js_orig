@@ -27,7 +27,7 @@
 #define MENWIZ_h
 
 #define EEPROM_SUPPORT     //comment if you do'nt want to use the readEeprom and writeEeprom methods!
-#define BUTTON_SUPPORT     //comment if you do'nt want to use the Button methods!
+//#define BUTTON_SUPPORT     //comment if you do'nt want to use the Button methods!
 
 #include <Wire.h>
 #include <avr/pgmspace.h>
@@ -53,12 +53,12 @@ extern const char MW_ver[];
 
 // SIZES (DIMENSIONAL LIMITS OF STATICALLY ALLOCATED STRUCTURES)
 // ---------------------------------------------------------------------------
-#define MAX_MENU       	15   //maximum number of nodes (absolute supported max number of addMenu calls)
-#define MAX_OPTXMENU   	5    //maximum number of options/submenus for each node (max number of addItem call for each menu item) 
+#define MAX_MENU       	25   //maximum number of nodes (absolute supported max number of addMenu calls)
+#define MAX_OPTXMENU   	20    //maximum number of options/submenus for each node (max number of addItem call for each menu item)
 
 // OTHER SIZES 
 // ---------------------------------------------------------------------------
-#define MW_FLOAT_DEC    1    //decimal digits in float screen representation
+#define MW_FLOAT_DEC    2    //decimal digits in float screen representation
 
 // VALUE TYPES
 // ---------------------------------------------------------------------------
